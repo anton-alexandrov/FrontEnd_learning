@@ -1,0 +1,29 @@
+.top{
+    background-color: #f3f3f3;
+    height: 1110px;
+    clip-path: polygon(0 0%, 100% 0, 100% 85vw, 60% 100%, 0 75%);
+    margin-bottom: -15vw;
+    font-family: 'Roboto', sans-serif;
+}
+.about{
+    background-color: #3829ab;
+    height: 1480px;
+    font-family: 'Dela Gothic One', cursive;
+}
+.work{
+    background-color: #f3f3f3;
+    height: 2340px;
+    clip-path: polygon(38% 0, 100% 15%, 100% 84%, 64% 100%, 0 84%, 0 25%);
+}
+.myblog{
+    background-color: #fff;
+    height: 1400px;
+}
+.profile{
+    background-color: #f3f3f3;
+    height: 1400px;
+}
+aside{
+    display: inline-block;
+    flex-flow: column wrap;
+}

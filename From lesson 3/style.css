@@ -1,0 +1,38 @@
+/* Main  */
+body{
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 130px 1fr;
+    grid-template-areas:
+            "header main"
+            "aside main";
+    gap: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+header{
+    grid-area: header;
+    background-color: #4f4f4f;
+}
+
+/* LeftSidebar */
+aside{
+    display: flex;
+    flex-flow: column wrap;
+    grid-area: aside;
+}
+.nav{
+    flex: 1;
+}
+.menu{ flex: 1;}
+
+/* Main container */
+main{
+    grid-area: main;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
