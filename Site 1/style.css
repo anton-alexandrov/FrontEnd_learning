@@ -3,7 +3,6 @@
     height: 1110px;
     clip-path: polygon(0 0%, 100% 0, 100% 85vw, 60% 100%, 0 75%);
     margin-bottom: -15vw;
-    font-family: 'Roboto', sans-serif;
 }
 .about{
     background-color: #3829ab;
@@ -27,3 +26,29 @@ aside{
     display: inline-block;
     flex-flow: column wrap;
 }
+.name {
+    display: block; /* the default for span */
+    width: 350px;
+    height: 125px;
+    position: fixed;
+    left: 375px;
+    top: 570px;
+    padding: 5px;
+    border: 1px solid blue; 
+    background-color: yellow;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+  }
+  .signature{
+    width: 160px;
+    height: 40px;
+    padding-left: 385px;
+    padding-top: 144px;
+  }
+  .link{
+    width: 112px;
+    height: 40px;
+    margin-left: 385px;
+    margin-top: 700px;
+  }
+  
