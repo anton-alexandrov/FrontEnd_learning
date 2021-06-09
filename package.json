@@ -1,0 +1,29 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "project for FrontEnd learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anton-alexandrov/FrontEnd_learning.git"
+  },
+  "author": "Anton Aleksandrov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anton-alexandrov/FrontEnd_learning/issues"
+  },
+  "homepage": "https://github.com/anton-alexandrov/FrontEnd_learning#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "cssnano": "^5.0.5",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.0",
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^6.0.0",
+    "postcss": "^8.3.0"
+  }
+}
